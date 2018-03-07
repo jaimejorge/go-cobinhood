@@ -19,7 +19,7 @@ func init() {
 func cmdUser(cmd *cobra.Command, args []string) error {
 
 	fmt.Println( "You must specify the type of resource to get. Valid resource types include:\n\n"+
-		"   * closed\n"+
+		"   * history\n"+
 		"   * info\n"+
 		"   * open\n"+
 		"   * orderTrades\n"+
